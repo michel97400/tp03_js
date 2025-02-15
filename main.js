@@ -10,6 +10,7 @@ let person = {
 // Resquest name
 person.name = prompt("Enter your name: ");
 
+// Verification
 while (!person.name) {
     person.name = prompt("Enter your valid name: ");
 }
@@ -17,6 +18,7 @@ while (!person.name) {
 // Request fullname
 person.fullname = prompt("Enter your full name: ");
 
+// Verification
 while (!person.fullname) {
     person.fullname = prompt("Enter your  valid fullname: ");
 }
@@ -24,6 +26,7 @@ while (!person.fullname) {
 // Request email
 person.email = prompt("Enter a email");
 
+// Verification
 while (!person.email) {
     person.email = prompt("Enter your valid email: ");
 }
@@ -31,6 +34,9 @@ while (!person.email) {
 // Request age
 person.age = Number(prompt("Enter your age: "));
 
+// Verification
 while (isNaN(person.age) || !person.age) {
     person.age = Number(prompt("Enter your valid age: "));
 }
+
+
