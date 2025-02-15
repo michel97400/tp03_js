@@ -4,7 +4,6 @@ let person = {
     fullname:"",
     age:null,
     email:"",
-
 };
 
 // Resquest name
@@ -39,4 +38,7 @@ while (isNaN(person.age) || !person.age) {
     person.age = Number(prompt("Enter your valid age: "));
 }
 
+
+// Displaying sentence
+console.log(`Your name is ${person.name}, and your fullname is ${person.fullname}, you have ${person.age} years old and your email is ${person.email}`)
 
